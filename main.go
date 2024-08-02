@@ -10,7 +10,7 @@ import (
 var (
 	special   = zrand.Immediate("_.-")
 	operation = zrand.Combine(
-		zrand.Random(zrand.Letters, 3),
+		zrand.Random(zrand.Letters, 1),
 		zrand.Shuffle(
 			zrand.Combine(
 				zrand.Random(zrand.Uppers, 3),
@@ -28,7 +28,7 @@ var (
 				zrand.Random(special, 1),
 			),
 		),
-		zrand.Random(zrand.Letters, 3),
+		zrand.Random(zrand.Letters, 1),
 	)
 )
 

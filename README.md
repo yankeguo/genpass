@@ -4,13 +4,12 @@ Best Password Generator
 
 ## Rules
 
-- Beginning with 3 random letters
-- Ending with 3 random letters
-- In the middle
-    - 6 Upper case letters
-    - 6 Lower case letters
-    - 6 Numbers
-    - 2 Special characters (URL-safe, Non-contiguous)
+- 25 characters long
+- At least 6 upper case letters
+- At least 6 lower case letters
+- 6 numbers
+- 2 special characters (url-safe, non-contiguous)
+- Starting and ending with a letter
 
 ## Credits
 
